@@ -32,6 +32,6 @@
   </project>
 
   <remote name="board"     fetch="https://github.com/jaccobraat/MYD-J1028X"/>
-  <project name="myd-j1028x" path="sources/myd-j1028x" remote="board" upstream="mickledore">
+  <project name="myd-j1028x" path="sources/myd-j1028x" remote="board" revision="mickledore" upstream="mickledore">
   </project>
 </manifest>
