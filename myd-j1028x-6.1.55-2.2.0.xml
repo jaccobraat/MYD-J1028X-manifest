@@ -31,7 +31,7 @@
   <project name="meta-nxp-desktop" path="sources/meta-nxp-desktop" remote="nxp-imx" revision="refs/tags/rel_lf_6.1.55_2.2.0_ldp" upstream="lf-6.1.55-2.2.0-mickledore" >
   </project>
 
-  <remote name="board"     fetch="https://github.com/jaccobraat/MYD-J1028X"/>
+  <remote name="board"     fetch="https://github.com/jaccobraat"/>
   <project name="myd-j1028x" path="sources/myd-j1028x" remote="board" revision="mickledore" upstream="mickledore">
   </project>
 </manifest>
