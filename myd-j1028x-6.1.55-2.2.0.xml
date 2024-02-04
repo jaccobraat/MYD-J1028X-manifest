@@ -33,5 +33,6 @@
 
   <remote name="board"     fetch="https://github.com/jaccobraat"/>
   <project name="myd-j1028x" path="sources/myd-j1028x" remote="board" revision="mickledore" upstream="mickledore">
+    <linkfile src="tools/setup-env" dest="board-setup-env"/>
   </project>
 </manifest>
