@@ -23,8 +23,8 @@ https://github.com/nxp-qoriq/yocto-sdk
 > bitbake qoriq-atf  
 > cd tmp/deploy/images/ls1028amyd  
 
-### make sure to check correct sd device! 
-use flex-installer to prepare sdcard then install:
+ **!!!make sure to check correct sd device!!!**   
+use flex-installer to prepare sdcard then install:  
 
 > sudo dd if=atf/bl2_sd.pbl of=/dev/sdd bs=512 seek=8  
 > sudo dd if=atf/fip_uboot.bin of=/dev/sdd bs=512 seek=2048  
@@ -35,4 +35,5 @@ use flex-installer to prepare sdcard then install:
 > tar -zxf boot_ls1028amyd_lts_6.1.tgz  -C <mount point partition 1>  
 
 ### userland
-> bitbake ls-image-main
+> bitbake ls-image-main  
+> tar -zxf  ls-image-main-ls1028amyd.tar.gz  -C <mount point partition 4>  
