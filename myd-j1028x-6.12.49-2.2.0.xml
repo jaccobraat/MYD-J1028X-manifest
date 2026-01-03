@@ -33,11 +33,7 @@
   <project name="meta-qoriq" remote="nxp-qoriq" path="sources/meta-qoriq" revision="refs/tags/lf-6.12.49-2.2.0" upstream="walnascar">
   </project>
 
-  <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
-
-  <project name="meta-nxp-desktop" path="sources/meta-nxp-desktop" remote="nxp-imx" revision="refs/tags/rel_lf_6.1.55_2.2.0_ldp" upstream="lf-6.1.55-2.2.0-mickledore" >
-  </project>
-
+  
   <remote name="board"     fetch="https://github.com/jaccobraat"/>
   <project name="myd-j1028x" path="sources/myd-j1028x" remote="board" revision="walnascar" upstream="walnascar">
     <copyfile src="tools/setup-env" dest="board-setup-env"/>
