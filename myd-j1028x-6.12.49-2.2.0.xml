@@ -10,12 +10,7 @@
 
   <remote name="nxp-qoriq"     fetch="https://github.com/nxp-qoriq"/>
 
-  <project name="meta-arm" remote="yocto" path="sources/meta-arm" revision="c6380674f59489b327c5047d803cc35b68642cd4" upstream="mickledore" />
-  <project name="meta-browser" remote="ossystems" path="sources/meta-browser" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6" />
-  <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="af4dcba009ba98250315520f3003fde4ee164cce" upstream="mickledore" />
-  <project name="meta-cloud-services" path="sources/meta-cloud-services" remote="yocto" revision="589cdff6528b3b677b2a76a18d80694ccd9991fb" upstream="mickledore"/>
-
-
+  
   <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="21894cc2ea3197e6bfc1a56d889f757a09dc8b31" upstream="walnascar" />
   <project name="meta-cloud-services" remote="yp" path="sources/meta-cloud-services" revision="6c5afb77aa5580dbe737f682ee2f792122c0c2f3" upstream="master" />
   <project name="meta-selinux" remote="yp" path="sources/meta-selinux" revision="5ef032c67574e868f7f8b3f1f20297f16c8f0420" upstream="master" />
