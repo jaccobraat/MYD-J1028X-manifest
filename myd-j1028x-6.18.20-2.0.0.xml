@@ -10,6 +10,10 @@
 
   <remote name="nxp-qoriq"     fetch="https://github.com/nxp-qoriq"/>
 
+<project name="bitbake"           remote="oe" path="sources/bitbake"           revision="a2dd9be788274d9c7280be5b1be5eb5c3990cf54" upstream="2.18" />
+  <project name="openembedded-core" remote="oe" path="sources/openembedded-core" revision="42fa856a00ac16b2a7a83d7ecfa60a5be192b16c" upstream="wrynose" />
+  <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="420222862f5a6d95023b8f5f3b7e1808b2264ef9" upstream="wrynose" />
+
  <project name="meta-arm"            remote="yp" path="sources/meta-arm"            revision="4112fda50b814ad6e3cfaefe5cad78a83114599a" upstream="master" />
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="022f4356d4a9b389f51472d40a9330aa59f6bb9a" upstream="master" />
 
