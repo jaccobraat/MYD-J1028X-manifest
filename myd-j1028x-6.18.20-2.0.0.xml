@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <remote name="yp"       fetch="https://git.yoctoproject.org"/>
+  <remote name="oe"          fetch="https://github.com/openembedded"/>
+  <remote name="kraj"        fetch="https://github.com/kraj"/>
+
+  <remote name="community"   fetch="https://github.com/Freescale"/>
+  <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
+
+  <remote name="nxp-qoriq"     fetch="https://github.com/nxp-qoriq"/>
+
+ <project name="meta-arm"            remote="yp" path="sources/meta-arm"            revision="4112fda50b814ad6e3cfaefe5cad78a83114599a" upstream="master" />
+  <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="022f4356d4a9b389f51472d40a9330aa59f6bb9a" upstream="master" />
+
+<project name="meta-browser" remote="ossystems" path="sources/meta-browser" revision="407e3ac990f5ed466cb76e5002f918860503799c" />
+
+<project name="meta-freescale"        remote="community" path="sources/meta-freescale"        revision="3949624f36cbc5b7fd4033ce5ef001d83fc1a3e9" upstream="master"/>
+  <project name="meta-freescale-distro" remote="community" path="sources/meta-freescale-distro" revision="70b7591ecaa99cb6366f93ee05df7c38d94d724b" upstream="master" />
+
+ <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="420222862f5a6d95023b8f5f3b7e1808b2264ef9" upstream="wrynose" />
+
+
+
+ <project name="meta-qoriq" remote="nxp-qoriq" path="sources/meta-qoriq" revision="refs/tags/lf-6.18.20-2.0.0" upstream="wrynose">
+  </project>
+  
+  <remote name="board"     fetch="https://github.com/jaccobraat"/>
+  <project name="myd-j1028x" path="sources/myd-j1028x" remote="board" revision="walnascar" upstream="walnascar">
+    <copyfile src="tools/setup-env" dest="board-setup-env"/>
+  </project>
+</manifest>

@@ -14,7 +14,7 @@ https://github.com/nxp-qoriq/yocto-sdk
 > git config --global user.email "you@example.com"  
 > git config --global user.name "Your Name"  
 
-> bin/repo init -u https://github.com/jaccobraat/myd-j1028x-manifest  -b walnascar -m myd-j1028x-6.12.49-2.2.0.xml  
+> bin/repo init -u https://github.com/jaccobraat/myd-j1028x-manifest  -b wrynose  -m myd-j1028x-6.18.20-2.0.0.xml  
 > bin/repo sync  
 
 > . board-setup-env  
