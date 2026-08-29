@@ -26,7 +26,7 @@
   </project>
   
   <remote name="board"     fetch="https://github.com/jaccobraat"/>
-  <project name="myd-j1028x" path="sources/myd-j1028x" remote="board" revision="walnascar" upstream="walnascar">
+  <project name="myd-j1028x" path="sources/myd-j1028x" remote="board" revision="wrynose" upstream="wrynose">
     <copyfile src="tools/setup-env" dest="board-setup-env"/>
   </project>
 </manifest>
