@@ -19,6 +19,13 @@ https://github.com/nxp-qoriq/yocto-sdk
 
 > . board-setup-env  
 
+###
+bitbake fsl-image-networking  
+bitbake qoriq-composite-firmware  
+bitbake generate-boottgz  
+
+flex-installer -d /dev/sdd -b boot_ls1028amyd_lts_6.1.tgz -f firmware_ls1028amyd_uboot_sdboot.img -r fsl-image-networking-ls1028amyd.rootfs.tar.gz  
+
 ### atf & u-boot
 > bitbake qoriq-atf  
 > cd tmp/deploy/images/ls1028amyd  
